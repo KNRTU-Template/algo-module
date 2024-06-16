@@ -1,12 +1,8 @@
 from rasterio import Affine
 import numpy as np
-import pandas as pd
-from osgeo import gdal
 import cv2
 from multiprocessing.pool import ThreadPool
 import time
-import glob
-import os
 import math
 from asift import Timer, image_resize, init_feature, filter_matches, affine_detect
 import datetime
